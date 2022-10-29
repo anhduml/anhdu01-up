@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Template webnhom</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="template.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class="row medufa">
+    <div class="medufa-left">
+      <a href="template.html"><i class="bi bi-arrow-counterclockwise">Về template.html</i></a>
+    </div>
+
+    <div class="medufa-right">
+      
+      <div class="medufa-container">
+        
+          <p>Form Tạo công việc:</p>
+          <form class="border border-success" style="padding: 10px;">
+            <label for="name"></label>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"><b>Tên công việc mới</b></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mô tả</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Tệp đính kèm</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <select class="form-select" aria-label="Default select example" style="margin-bottom: 8px;">
+                  <option selected>Nhóm việc (mặc định và tuỳ chọn)</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example" style="margin-bottom: 8px;">
+                  <option selected>Người thực hiện (mặc định và tuỳ chọn)</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <input class="form-control form-control-sm" style="margin-bottom: 8px;" type="text"
+                 placeholder="Chọn ngày bắt đầu thực hiện" aria-label=".form-control-sm example">
+                 <input class="form-control form-control-sm" style="margin-bottom: 8px;"
+                 type="text" placeholder="Chọn ngày kết thúc công việc" aria-label=".form-control-sm example">
+                
+                 <div class="form-check" style="margin-bottom: 8px;">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Xác định là việc khẩn cấp
+                  </label>
+                </div>
+                <div class="form-check" style="margin-bottom: 8px;">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Xác định là việc Quan trọng
+                  </label>
+                </div>
+                <div class="form-check" style="margin-bottom: 8px;">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Đánh dấu tập huấn, hội nghị
+                  </label>
+                </div>
+                <div class="form-check" style="margin-bottom: 8px;">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Cập nhật vào kế hoạch tuần
+                  </label>
+                </div>
+              </div>
+              <div class="col-8">
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                  <option selected>Người giám sát (mặc định và tuỳ chọn)</option>
+                  <option value="1">User 1</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option selected>Người phối hợp thực hiện (mặc định và tuỳ chọn)</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <br>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option selected>Người theo dõi (mặc định và tuỳ chọn)</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+          </form>
+  
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

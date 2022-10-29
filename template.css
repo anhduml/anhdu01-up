@@ -1,0 +1,92 @@
+.medufa {
+    width: 100%;
+}
+.medufa-home-header {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+}
+.medufa-home-container {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    padding: 10px;
+}
+.medufa-home-footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(184, 146, 222);
+    padding: 10px;
+}
+
+.medufa-left {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.medufa-right {
+    width: 70%;
+    position: relative;
+}
+.medufa-asidebar {
+    width: 15%;
+    padding: 10px;
+    font-size: larger;
+    color: rgb(10, 105, 229);
+}
+.medufa-sidebar {
+    width: 85%;
+    position: relative;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: initial;
+    background-color: #fff;
+}
+.medufa-sidebar-text {
+    font-size: large;
+    font-weight: 400;
+    color: rgb(32, 9, 241);
+    padding: 20px;
+    padding-left: 20px;    
+}
+.medufa-right-header {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    padding: 8px;
+}
+.medufa-container {
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    color: rgb(35, 14, 175);
+    background-color: rgb(225, 231, 233);
+    height: 40px;
+    border-top: 1px;
+}
+.col-nhomviec {
+    width: 32%;
+    height: 100%;
+    margin: 3px;
+    padding: 1px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.nhomviec-header {
+    padding: 10px;
+}
+.cv {
+    width: 100%;
+    height: 100px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgb(41, 157, 157);
+    border-style: solid;
+    margin-bottom: 2px;
+    background-color: white;
+}
